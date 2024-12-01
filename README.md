@@ -1,2 +1,1 @@
-# c
-Only C++ Exercise n Answer 
+# Only C++ Exercise and Answer
