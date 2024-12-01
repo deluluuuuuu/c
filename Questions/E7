@@ -1,0 +1,60 @@
+# Employee Salary Adjustment Program
+This program calculates an employee's **annual salary adjustment** based on multiple factors, ensuring a fair and transparent salary review process. The key factors include:
+
+- **Performance Rating**: Determines the base percentage of salary increase.
+- **Years of Experience**: Sets limits on the salary adjustment percentage.
+- **Department Multiplier**: Modifies the adjustment based on department-specific performance weightings.
+
+---
+
+- Calculate salary adjustments with a **user-friendly input system**.
+- Adheres to company-specific rules for performance ratings, experience, and department multipliers.
+- Provides **clear and accurate outputs** with the updated salary after adjustments.
+
+---
+
+## 📊 **Rules for Salary Adjustment**
+
+### **1. Performance Rating**  
+The performance rating affects the **base salary increase percentage**:  
+| **Rating**   | **Percentage Increase** |
+|--------------|--------------------------|
+| Excellent    | 20%                     |
+| Good         | 10%                     |
+| Average      | 5%                      |
+| Poor         | 0%                      |
+
+---
+
+### **2. Years of Experience**  
+The years of experience impose **maximum salary adjustment limits**:  
+| **Years of Experience** | **Maximum Adjustment**    |
+|--------------------------|--------------------------|
+| Less than 2 years        | No maximum              |
+| 2 to 5 years             | 15%                     |
+| More than 5 years        | 25%                     |
+
+---
+
+### **3. Department Multiplier**  
+Each department applies a **multiplier to the performance-based adjustment**:  
+
+| **Department** | **Excellent** | **Good** | **Average** | **Poor** |
+|----------------|---------------|----------|-------------|----------|
+| Sales          | 1.25          | 1.20     | 1.10        | 1.00     |
+| Marketing      | 1.20          | 1.15     | 1.05        | 1.00     |
+| Engineering    | 1.30          | 1.25     | 1.10        | 1.00     |
+| HR             | 1.10          | 1.05     | 1.00        | 1.00     |
+
+---
+
+## 📖 **Example Calculation**
+
+### **Input:**
+- Current Salary: **$50,000**  
+- Performance Rating: **Excellent**  
+- Years of Experience: **4 years**  
+- Department: **Engineering**  
+
+- **Final Salary**:  
+   - $50,000 + $9,750 = **$59,750**
